@@ -105,7 +105,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="79q-AR-TKb">
                                         <rect key="frame" x="0.0" y="879" width="728" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3us-ck-JDi">
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="240" verticalCompressionResistancePriority="760" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3us-ck-JDi">
                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="50"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -121,6 +121,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="J9g-Sa-nxX"/>
                                         </constraints>
+                                        <variation key="widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
